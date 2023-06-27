@@ -560,15 +560,16 @@ main{
     font-size:0.4em;
     position: relative;
     right: 1660px;
-    top: 100px;
+  bottom: 300px;
     text-align: center;
 }
 #precios6{
     float: right;
     font-size:0.4em;
     position: relative;
+    top: -380px;
     right:1365px;
-    top: 20px;
+  
     text-align: center;
 }
 #precios7{
@@ -576,7 +577,7 @@ main{
     font-size:0.4em;
     position: relative;
     right:1065px;
-    top: -55px;
+  top: -460px;
     text-align: center;
 }
 
@@ -585,82 +586,101 @@ main{
     font-size:0.4em;
     position: relative;
     right: 780px;
-    top:-135px;
+    top:-540px ; 
     text-align: center;
 }
 #precios9{
-   bottom: 2000px;
+    float: right;
+    font-size:0.4em;
+    position: relative;
+    right: 470px;
+    top:-610px ; 
+    text-align: center;
 }
 #precios10{
+    float: right;
+    font-size:0.4em;
+    position: relative;
+    right: 150px;
+    top:-690px ; 
+    text-align: center;;
 }
 /*CAJA ART*/
 #cajart{
     height: 700px;
     background-image: url(fondoo.jfif);
     background-size: cover;
+    
 }
 #cajart p{
-    padding-top: 10px;
+    position: relative;
+    top: -250px;
     padding-left: 850px;
     font-size: 4em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #minicajitart{
     position: relative;
-    top: 100px;
+    bottom: 200px;
     height: 300px;
     background-color: rgb(252, 209, 145);
-    background-size: cover;}
+    background-size: cover;
+  
+}
     #precios11{
         float: right;
-        font-size:0.4em;
+        font-size:1.5em;
         position: relative;
         right: 1660px;
-        bottom: 460px;
+        bottom: 200px;
         text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-    #precios6{
+    #precios12{
         float: right;
-        font-size:0.4em;
+        font-size:1.5em;
         position: relative;
-        right:1365px;
-        bottom: 540px;
+        right:1200px;
+        bottom:200px;
         text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-    #precios7{
+    #precios13{
         float: right;
-        font-size:0.4em;
+        font-size:1.5em;
         position: relative;
-        right:1065px;
-        bottom:617px;
+        right:770px;
+        bottom:200px;
         text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #precios14{
+        float: right;
+        font-size:1.5em;
+        position: relative;
+        right:330px;
+        bottom:200px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     
-    #precios8{
+    #precios15{
         float: right;
-        font-size:0.4em;
+        font-size:1.5em;
         position: relative;
-        right: 780px;
-        bottom: 695px;
+        left: 150px;
+        bottom:200px;
         text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-    #precios9{
+    #precios16{
         float: right;
-        font-size:0.4em;
+        font-size:1.5em;
         position: relative;
-        right: 470px;
-        bottom: 773px;
+        left: 650px;
+        bottom:200px;
         text-align: center;
-    }
-    #precios10{
-        float: right;
-        font-size:0.4em;
-        position: relative;
-        right: 110px;
-        bottom:850px;
-        text-align: center;
-
-
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*PAGINA DE SEREÑAS*/
 #box1{
