@@ -1,0 +1,735 @@
+*{margin: 0; padding: 0;}
+body{
+    min-height: 500px;
+}
+header{
+    background-color: bisque;
+    height: 70px;
+}
+/*LOGO*/
+img{
+    float: left;
+    padding-left: 5em;
+}
+/*MENU*/
+#menu nav ul{
+    clear: both;
+    float: left;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-left: 2px solid rgb(159, 159, 172);
+    position: relative;
+    bottom: 60px;
+}
+#menu nav ul li{
+    float: right;
+}
+#menu nav ul li a{
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 123, 0);
+    border-right: 2px solid rgb(224, 76, 7);  
+}
+main{
+    width: 100%;
+    height: 2200px;
+    background-color: rgb(252, 209, 145);
+}
+/*PRINCIPAL*/
+/*CONTENEDOR 1*/
+#cajita1{
+    height: 500px;
+    background-image: url(fondoo.jfif);
+    background-size: cover;
+}
+/* 2 CONTENEDOR*/
+#cajita1 h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4em;
+    color: white;
+    padding-top: 170px;
+}
+#cajita2{
+    height: 700px;
+    background-color: rgb(252, 209, 145);
+}
+#foto{
+    width: 800px;
+    height: 700px;
+    background-color: brown;
+    background-image:url(foto.jfif);
+}
+
+#info{
+    width: 700px;
+    float: right;
+    position: relative;
+    bottom: 450px;
+    right: 200px;
+}
+#info p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(224, 76, 7);
+}
+#marca{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 6em;
+    float: left;
+    position: relative;
+    left: 900px;
+    bottom: 700px;
+}
+#marca nav ul{
+    list-style: none;
+}
+#marcaa{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 6em;
+    float: left;
+    position: relative;
+    left: 1680px;
+    bottom: 650px;
+}
+#marcaa nav ul{
+    list-style: none;
+}
+#caji{
+    height: 10px;
+    background-color: white;
+}
+/* 3 CONTENEDOR*/
+#cajita3{
+    height: 600px;
+    background-color:rgb(253, 192, 101) ;
+    background-image: url(fondoo.jfif);
+    background-size: cover;
+
+}
+#galeria{
+    height: 100px;
+    position: relative;
+    float: right;
+}
+/*foto skater*/
+#gal{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    right: 800px;
+    bottom: 230px;
+    background-image: url(2.png);
+    background-size: cover;
+}
+#skater1{
+    width: 300px;
+    position: relative;
+    left: 590px;
+    bottom: 220px;
+}
+#skater1 nav ul{
+    list-style: none;
+}
+#skater1 nav ul li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(224, 76, 7);
+    text-align: center;
+    font-size: 3.5em;
+}
+#infok{
+    position: relative;
+    bottom: 600px;
+    left: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    background-color: aliceblue;
+    text-align: center;
+}
+#infok p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    background-color: aliceblue;
+    text-align: center;
+}
+/*foto soft*/
+#gale{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    right: 420px;
+    bottom: 630px;
+    background-image: url(morado.png);
+    background-size: cover;
+}
+#soft1{
+    width: 300px;
+    position: relative;
+    left: 1030px;
+    bottom: 530px;
+}
+#soft1 nav ul{
+    list-style: none;
+}
+#soft1 nav ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(224, 76, 7);
+    font-size: 3.5em;
+    text-align: center;
+}
+#infos{
+    position: relative;
+    bottom: 650px;
+    left: 1185px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    background-color: aliceblue;
+    text-align: center; 
+}
+/*foto art*/
+#galer{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    right: 40px;
+    bottom: 1030px;
+    background-image: url(14.png);
+    background-size: cover;
+}
+#art1{
+    width: 300px;
+    position: relative;
+    left: 1410px;
+    bottom: 750px;
+}
+#art1 nav ul{
+    list-style: none;
+}
+#art1 nav ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(224, 76, 7);
+    font-size: 3.5em;
+    text-align: center;
+}
+#infoar{
+    position: relative;
+    bottom: 700px;
+    left: 1570px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    background-color: aliceblue;
+    text-align: center; 
+}
+/*FRASE*/
+#fra{
+    position: relative;
+    bottom:  119px;
+    color: aliceblue;
+    font-size: 5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 75px;
+}
+#caja{
+    width: 128px;
+    height: 53px;
+    position: relative;
+    background-color: aliceblue;
+    top: 113px;
+}
+#cajaa{
+    width: 128px;
+    height: 53px;
+    position: relative;
+    background-color: aliceblue;
+    top: 150px;
+}
+#cajaaa{
+    width: 126px;
+    height: 53px;
+    position: relative;
+    background-color: aliceblue;
+    top: 187px;
+}
+#cajaaaa{
+    width: 128px;
+    height: 53px;
+    position: relative;
+    background-color: aliceblue;
+    top: 224px;
+}
+/*4 CONTENEDOR*/
+#cajita4{
+    height: 350px;
+    background-color: rgb(252, 209, 145);
+}
+/*fotos*/
+#fo{
+    position: relative;
+    top: 70px;
+    height: 150px;
+    background-image: url(fondoo.jfif);
+    background-size: cover;
+}
+#lo{
+    padding-left: 500px;
+}
+#lu{
+    padding-left: 400px;
+}
+/*info*/
+#dise{
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 150px;
+    position: relative;
+    top: 100px;
+    left: 590px;
+    background-image: url(fondoo.jfif);
+    background-size: cover;
+}
+#dise p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#pro{
+    width: 250px;
+    position: relative;
+    top: 60px;
+    left: 1140px;
+    background-image: url(fondoo.jfif);
+    background-size: cover;
+}
+#pro p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*PÁGINA DE LOS ESTILOS*/
+/*SOFT*/
+#soft{
+    height: 900px;
+    background-color:rgb(236, 159, 42);
+}
+#caja1{
+    width: 500px;
+    padding-top: 1em;
+    padding-left: 8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#soft h1{
+    font-size: 5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 4em;
+    color: rgb(255, 255, 255);
+}
+#soft h2{
+    width: 850px;
+    float: right;
+    position: relative;
+    bottom:150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#ref{
+    height: 300px;
+    position: relative;
+    top: 70px;
+    padding: 3em 1em;
+    background-color: rgb(252, 209, 145);
+}
+#ama{
+    position: absolute;
+    left: 600px;
+    top: 90px;
+}
+#colores{
+    width: 700px;
+    height: 100px;
+    background-color:rgb(252, 209, 145);
+    float: right;
+    position: relative;
+    bottom: 740px;
+    padding-top: 1em;
+}
+.co{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: rgb(209, 168, 228);
+}
+/*SKATER*/
+#skater{
+    height: 900px;
+    background-color:rgb(255, 188, 87); 
+}
+#skater h1{
+    width: 500px;
+    padding-top: 1em;
+    padding-left: 4.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+}
+#caja2{
+    width: 500px;
+    padding-top: 1em;
+    padding-left: 8em;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#reef{
+    height: 300px;
+    position: relative;
+    top: 70px;
+    padding: 3em 1em;
+    background-color: rgb(252, 209, 145);
+
+}
+#salto{
+    position: absolute;
+    left: 400px;
+    top: 1000px;
+}
+#skater h2{
+    width: 850px;
+    float: right;
+    position: relative;
+    bottom:150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#colors{
+    width: 700px;
+    height: 100px;
+    background-color:rgb(252, 209, 145);
+    float: right;
+    position: relative;
+    bottom: 480px;
+    padding-top: 1em;
+}
+/*ARTE*/
+#art{
+    height: 900px;
+    background-color:rgb(236, 159, 42); 
+}
+#art h3{
+    width: 500px;
+    padding-top: 1em;
+    padding-left: 4.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+}
+#caja3{
+    width: 500px;
+    padding-top: 1em;
+    padding-left: 8em;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#art h2{
+    width: 850px;
+    float: right;
+    position: relative;
+    bottom:150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#pincel{
+    position: absolute;
+    left: 650px;
+    top: 1900px;
+}
+/*TIENDA*/
+
+#contenedor{
+    height: 500px;
+    background-image: url(descarga\ \(9\).jfif);
+    background-size: cover;
+}
+#contenedor p{
+    padding-top: 100px;
+    padding-left: 650px;
+    font-size: 7em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(224, 76, 7);
+}
+/*CAJA SOFT*/
+#cajasof{
+    height: 700px;
+    background-image: url(fondoo.jfif);
+    background-size: cover;
+}
+#cajasof p{
+    padding-top: 10px;
+    padding-left: 850px;
+    font-size: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#minicajitas{
+    position: relative;
+    top: 100px;
+    height: 300px;
+    background-color: rgb(252, 209, 145);
+}
+#minicajitasp nav ul{
+    clear: both;
+    float: left;
+    width: 1000px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-left: 2px solid rgb(159, 159, 172);
+    position: relative;
+    bottom: 80px;
+}
+#minicajitasp {
+    float: right;
+    font-size:0.4em;
+    position: relative;
+    right: 1630px;
+    top: 120px;
+    text-align: center;
+ 
+}
+#precios{
+    float: right;
+    font-size:0.4em;
+    position: relative;
+    right: 750px;
+    top:40px;
+    text-align: center;
+}
+#precios1{
+    float: right;
+    font-size:0.4em;
+    position: relative;
+    right: 1350px;
+    bottom: 35px;
+    text-align: center;
+ 
+}
+#precios2{
+    float: right;
+    font-size:0.4em;
+    position: relative;
+    right: 1050px;
+    bottom: 115px;
+    text-align: center;
+}
+#precios3{
+    float: right;
+    font-size:0.4em;
+    position: relative;
+    right: 420px;
+    bottom: 195px;
+    text-align: center;
+}
+#precios4{
+    float: right;
+    font-size: 0.4em;
+    position: relative;
+    right: 70px;
+    bottom: 270px;
+    text-align: center;
+}
+
+
+/*CAJA SKATER*/
+#cajask{
+    height: 700px;
+    background-color: rgb(252, 209, 145);
+}
+#cajask p{
+    padding-top: 10px;
+    padding-left: 850px;
+    font-size: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#minicajitak{
+    position: relative;
+    top: 100px;
+    height: 300px;
+    background-image: url(fondoo.jfif);
+    background-size: cover;
+}
+
+#precios5{
+    float: right;
+    font-size:0.4em;
+    position: relative;
+    right: 1660px;
+    top: 100px;
+    text-align: center;
+}
+#precios6{
+    float: right;
+    font-size:0.4em;
+    position: relative;
+    right:1365px;
+    top: 20px;
+    text-align: center;
+}
+#precios7{
+    float: right;
+    font-size:0.4em;
+    position: relative;
+    right:1065px;
+    top: -55px;
+    text-align: center;
+}
+
+#precios8{
+    float: right;
+    font-size:0.4em;
+    position: relative;
+    right: 780px;
+    top:-135px;
+    text-align: center;
+}
+#precios9{
+   bottom: 2000px;
+}
+#precios10{
+}
+/*CAJA ART*/
+#cajart{
+    height: 700px;
+    background-image: url(fondoo.jfif);
+    background-size: cover;
+}
+#cajart p{
+    padding-top: 10px;
+    padding-left: 850px;
+    font-size: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#minicajitart{
+    position: relative;
+    top: 100px;
+    height: 300px;
+    background-color: rgb(252, 209, 145);
+    background-size: cover;}
+    #precios11{
+        float: right;
+        font-size:0.4em;
+        position: relative;
+        right: 1660px;
+        bottom: 460px;
+        text-align: center;
+    }
+    #precios6{
+        float: right;
+        font-size:0.4em;
+        position: relative;
+        right:1365px;
+        bottom: 540px;
+        text-align: center;
+    }
+    #precios7{
+        float: right;
+        font-size:0.4em;
+        position: relative;
+        right:1065px;
+        bottom:617px;
+        text-align: center;
+    }
+    
+    #precios8{
+        float: right;
+        font-size:0.4em;
+        position: relative;
+        right: 780px;
+        bottom: 695px;
+        text-align: center;
+    }
+    #precios9{
+        float: right;
+        font-size:0.4em;
+        position: relative;
+        right: 470px;
+        bottom: 773px;
+        text-align: center;
+    }
+    #precios10{
+        float: right;
+        font-size:0.4em;
+        position: relative;
+        right: 110px;
+        bottom:850px;
+        text-align: center;
+
+
+}
+/*PAGINA DE SEREÑAS*/
+#box1{
+    background-image: url(fondoo.jfif);
+    background-size:cover ;
+    height: 900px;
+}
+
+#titulo{   
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    bottom: -15;
+    font-size: 1.7em;
+}
+#encuesta{
+    height: 700px;
+    margin: 75px ;
+    position: relative;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+/*PAGINA DE SESION*/
+#box{
+    background-image: url(fondoo.jfif);
+    background-size: cover;
+    height: 790px;
+}
+#ingrese{   
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    bottom: -15px;
+    font-size: 3em;
+}
+#inicio{
+    width: 600px;
+    height: 200px;
+    margin: 75px auto ;
+    background: cornsilk;
+    position: relative;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    position: relative;
+    top: 90px;   
+}
+/*FOOTER*/
+footer{
+    height: 100px;
+    background-color: bisque;
+}
+#ico{
+    width: 1350px;
+    float: right;
+}
+#in p{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    float:right;
+    width: 550px;
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(255, 123, 0);
+}
